@@ -3,6 +3,7 @@ import 'quasar/dist/quasar.css'
 
 // 引入Quasar Icon庫（可選）
 import '@quasar/extras/material-icons/material-icons.css'
+import '@quasar/extras/fontawesome-v6/fontawesome-v6.css'
 
 // 引入您需要的組件
 import {
@@ -29,7 +30,16 @@ import {
   QTd,
   QDialog,
   ClosePopup,
-  QSeparator
+  QSeparator,
+  QAvatar,
+  QChip,
+  QItemLabel as QItemLabelComponent,
+  QBadge,
+  QImg,
+  QTabs,
+  QTab,
+  QRouteTab,
+  QFooter
 } from 'quasar'
 
 const quasarConfig = {
@@ -57,7 +67,16 @@ const quasarConfig = {
     QTr,
     QTd,
     QDialog,
-    QSeparator
+    QSeparator,
+    QAvatar,
+    QChip,
+    QItemLabelComponent,
+    QBadge,
+    QImg,
+    QTabs,
+    QTab,
+    QRouteTab,
+    QFooter
   },
   directives: {
     ClosePopup
